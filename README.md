@@ -4,7 +4,7 @@
 
  <!-- LOGO -->
 
-  <img src="./src/assets/johto.png" alt="logo" width="300"  height="auto" />
+  <img src="./src/assets/pokemon.png" alt="logo" width="300"  height="auto" />
   <br/>
 
 <!-- MAIN HEADING -->
