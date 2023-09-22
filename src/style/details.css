@@ -1,0 +1,56 @@
+.d-text {
+  text-transform: capitalize;
+  color: rgb(88, 46, 125);
+  font-family: 'Pangolin', cursive;
+  font-family: 'Roboto Slab', serif;
+  font-size: 3.5em;
+}
+
+.back {
+  background-color: transparent;
+  border: none;
+  font-size: 4rem;
+  color: white;
+  position: relative;
+  top: -0%;
+  left: -50%;
+}
+
+.pokemon-grid {
+  display: grid;
+  gap: 1em;
+}
+
+.pokemon {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.pokemon:nth-child(2n + 1) {
+  background-color: rgb(89, 51, 123);
+}
+
+.poke-img {
+  width: 10em;
+}
+
+.poke-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+
+.p-name {
+  font-size: 1.8em;
+  color: wheat;
+}
+
+.p-data {
+  font-size: 1.2em;
+  line-height: 0;
+  color: azure;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
