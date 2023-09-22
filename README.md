@@ -62,7 +62,6 @@
 > - Display Types of Pokemon
 > - Display Pokemos grouped by types
 > - Search type category
-> - Cancel Rocket Reservation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
