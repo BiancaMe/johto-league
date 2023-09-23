@@ -28,6 +28,7 @@
   .btn-search {
     background-color: rgb(146, 237, 158);
     border-radius: 0 10px 10px 0;
+    font-family: 'Lato', sans-serif;
   }
 
   .btn-search:hover {
@@ -40,7 +41,7 @@
     align-items: center;
     color: white;
     text-transform: capitalize;
-    font-family: "Roboto Slab", serif;
+    font-family: 'Lato', sans-serif;
     line-height: 16px;
     border: none;
     height: 9rem;
@@ -105,7 +106,7 @@
     align-items: center;
     color: white;
     text-transform: capitalize;
-    font-family: "Roboto Slab", serif;
+    font-family: 'Lato', sans-serif;
     line-height: 10px;
     border: none;
     height: 7rem;
@@ -119,7 +120,7 @@
     align-items: center;
     color: white;
     text-transform: capitalize;
-    font-family: "Roboto Slab", serif;
+    font-family: 'Lato', sans-serif;
     line-height: 10px;
     border: none;
     height: 7rem;
