@@ -3,15 +3,17 @@ import { useSelector } from 'react-redux';
 
 export const filterType = (poke, id) => {
   let bool = false;
-  const res = poke.types.map((aux) => {
-    if (aux.type.name === id) { return true; }
-    return false;
-  });
+  if (poke) {
+    const res = poke.types.map((aux) => {
+      if (aux.type.name === id) { return true; }
+      return false;
+    });
 
-  for (let i = 0; i <= res.length; i += 1) {
-    if (res[i] === true) {
-      bool = true;
-      break;
+    for (let i = 0; i <= res.length; i += 1) {
+      if (res[i] === true) {
+        bool = true;
+        break;
+      }
     }
   }
   return bool;

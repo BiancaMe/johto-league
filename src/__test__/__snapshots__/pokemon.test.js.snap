@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Functions in Pokemon Component Get pokemon 1`] = `
+Array [
+  <div
+    className="clasification"
+  >
+    <p
+      className="c-text"
+    >
+       
+      POKEMON
+       
+      normal
+    </p>
+  </div>,
+  <div
+    className="pokemon-grid"
+  />,
+]
+`;
+
+exports[`Pokemon render`] = `
+<div className="clasification">
+<p className="c-text"> POKEMON normal</p></div>,
+ <div className="pokemon-grid" />
+`;
