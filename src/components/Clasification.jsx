@@ -9,8 +9,8 @@ const Clasification = () => {
   let typesFiltered;
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const [loadingType, setLoadingType] = useState(true);
-  const [loadingPokemon, setLoadingPokemon] = useState(true);
+  const [loadingType, setLoadingType] = useState(false);
+  const [loadingPokemon, setLoadingPokemon] = useState(false);
   const [search, setSearch] = useState('');
 
   const pokemon = useSelector(
@@ -22,15 +22,21 @@ const Clasification = () => {
   );
 
   useEffect(() => {
-    dispatch(fetchType('pokemon')).then(() => {
-      setLoadingType(false);
-    });
+    if (pokemon.length === 0) {
+      setLoadingType(true);
+      dispatch(fetchType('pokemon')).then(() => {
+        setLoadingType(false);
+      });
+    }
   }, [dispatch]);
 
   useEffect(() => {
-    dispatch(fetchPokemon('pokemon')).then(() => {
-      setLoadingPokemon(false);
-    });
+    if (pokemon.length === 0) {
+      setLoadingPokemon(true);
+      dispatch(fetchPokemon('pokemon')).then(() => {
+        setLoadingPokemon(false);
+      });
+    }
   }, [dispatch]);
 
   const countPokemon = (filter) => {
