@@ -22,6 +22,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo](#live-demo)
+  - [Video Presentation](#video-presentation)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -60,6 +61,12 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 - [Live Demo Link](https://moonlit-baklava-2b6653.netlify.app/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Video Presentation <a name="video-presentation"></a>
+- [Video Presentation Link](https://www.loom.com/share/e516e18e895542eca2c76f75eb2abd76)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Features -->
 
 <!-- Features -->
 
