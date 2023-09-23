@@ -86,7 +86,7 @@
 
 ### Setup
 
-To setup this project, run this command:
+To set up this project, run this command:
 
 ```sh
 git clone https://github.com/BiancaMe/johoto-league.git
@@ -132,7 +132,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> If you like this project, please give it some starts ⭐️⭐️⭐️⭐️⭐️
+> If you like this project, please give it some stars ⭐️⭐️⭐️⭐️⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
