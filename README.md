@@ -20,9 +20,9 @@
 - [📖 Johoto League ](#-johoto-league-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [Video Presentation ](#video-presentation-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo](#live-demo)
-  - [Video Presentation](#video-presentation)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -31,7 +31,7 @@
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
-  -  [🙏 Acknowledgements](#acknowledgements)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
 <!-- INTRO -->
@@ -148,7 +148,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank cc Creative Commons for letting me use their design and let me do some changes in init. 
+Thanks [Nelson Sawaka on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) for Original design idea.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
