@@ -9,8 +9,12 @@ const Clasification = () => {
   let typesFiltered;
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const [loadingType, setLoadingType] = useState(false);
-  const [loadingPokemon, setLoadingPokemon] = useState(false);
+  const loadingType = useSelector(
+    (state) => state.pokemon.isLoadingType,
+  );
+  const loadingPokemon = useSelector(
+    (state) => state.pokemon.isLoadingPokemon,
+  );
   const [search, setSearch] = useState('');
 
   const pokemon = useSelector(
@@ -23,19 +27,13 @@ const Clasification = () => {
 
   useEffect(() => {
     if (pokemon.length === 0) {
-      setLoadingType(true);
-      dispatch(fetchType('pokemon')).then(() => {
-        setLoadingType(false);
-      });
+      dispatch(fetchType('pokemon'));
     }
   }, [dispatch]);
 
   useEffect(() => {
     if (pokemon.length === 0) {
-      setLoadingPokemon(true);
-      dispatch(fetchPokemon('pokemon')).then(() => {
-        setLoadingPokemon(false);
-      });
+      dispatch(fetchPokemon('pokemon'));
     }
   }, [dispatch]);
 

@@ -6,7 +6,8 @@ const pathType = 'https://pokeapi.co/api/v2/type';
 const initialState = {
   pokemon: [],
   type: [],
-  isLoading: true,
+  isLoadingPokemon: true,
+  isLoadingType: true,
   error: undefined,
 };
 
@@ -38,24 +39,24 @@ const pokemonSlice = createSlice({
   extraReducers: (builder) => {
     builder
       .addCase(fetchPokemon.pending, (state) => {
-        state.isLoading = true;
+        state.isLoadingPokemon = true;
       })
       .addCase(fetchPokemon.fulfilled, (state, action) => {
-        state.isLoading = false;
+        state.isLoadingPokemon = false;
         state.pokemon = action.payload;
       })
       .addCase(fetchPokemon.rejected, (state) => {
-        state.isLoading = false;
+        state.isLoadingPokemon = false;
       })
       .addCase(fetchType.pending, (state) => {
-        state.isLoading = true;
+        state.isLoadingType = true;
       })
       .addCase(fetchType.fulfilled, (state, action) => {
-        state.isLoading = false;
+        state.isLoadingType = false;
         state.type = action.payload;
       })
       .addCase(fetchType.rejected, (state) => {
-        state.isLoading = false;
+        state.isLoadingType = false;
       });
   },
 });
