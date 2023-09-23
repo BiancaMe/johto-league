@@ -30,6 +30,7 @@
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
+  -  [🙏 Acknowledgements](#acknowledgements)
   - [📝 License ](#-license-)
 
 <!-- INTRO -->
@@ -57,7 +58,7 @@
 </details>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link]()
+- [Live Demo Link](https://moonlit-baklava-2b6653.netlify.app/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
@@ -65,7 +66,7 @@
 ### Key Features <a name="key-features"></a>
 
 > - Display Types of Pokemon
-> - Display Pokemos grouped by types
+> - Display Pokemon grouped by types
 > - Search type category
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,7 +87,7 @@
 
 ### Setup
 
-To setup this project, run this command:
+To set up this project, run this command:
 
 ```sh
 git clone https://github.com/BiancaMe/johoto-league.git
@@ -136,10 +137,19 @@ Contributions, issues, and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank cc Creative Commons for letting me use their design and let me do some changes in init. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+This project is [cc Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/#) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
