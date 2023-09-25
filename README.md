@@ -1,70 +1,162 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+ <!-- LOGO -->
 
-In the project directory, you can run:
+  <img src="./src/assets/pokemon.png" alt="logo" width="300"  height="auto" />
+  <br/>
 
-### `npm start`
+<!-- MAIN HEADING -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h3><b>Johoto League</b></h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+</div>
 
-### `npm test`
+<!-- TABLE OF CONTENTS -->
+# 📗 Table of Contents
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Johoto League ](#-johoto-league-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [Video Presentation ](#video-presentation-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Run](#run)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-### `npm run build`
+<!-- INTRO -->
+# 📖 Johoto League <a name="about-project"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> This is a web application to find information about the Pokemon in the Johto League, grouped by their types.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Built With <a name="built-with"></a>
+1. React
+2. Redux
+3. CSS
+4. JavaScript
+5. Webpack
+### Tech Stack <a name="tech-stack"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+    <li><a href="https://www.w3.org/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://webpack.js.org/">Webpack</a></li>
+  </ul>
+</details>
 
-### `npm run eject`
+## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link](https://moonlit-baklava-2b6653.netlify.app/)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Video Presentation <a name="video-presentation"></a>
+- [Video Presentation Link](https://www.loom.com/share/e516e18e895542eca2c76f75eb2abd76)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- Features -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- Features -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Key Features <a name="key-features"></a>
 
-## Learn More
+> - Display Types of Pokemon
+> - Display Pokemon grouped by types
+> - Search type category
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- GETTING STARTED -->
 
-### Code Splitting
+## 💻 Getting Started <a name="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. A Browser (Preferably Google Chrome)
+2. A Code Editor
+3. Internet Connection
+4. Git
 
-### Making a Progressive Web App
+<!-- SETUP -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Setup
 
-### Advanced Configuration
+To set up this project, run this command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+git clone https://github.com/BiancaMe/johoto-league.git
+cd johto-league
+npm install
+```
 
-### Deployment
+### Run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To run the project,  use this command: 
+```sh
+npm start
+```
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+## 👥 Authors <a name="authors"></a>
+
+👤 **Bianca Lopez**
+
+- GitHub: [@BiancaMe](https://github.com/BiancaMe)
+- Twitter: [@BiancaMeLopez](https://twitter.com/BiancaMeLopez)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bianca-lopez-55a4a3276/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add Information about Pokemon**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTION -->
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!--SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> If you like this project, please give it some starts ⭐️⭐️⭐️⭐️⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Thanks [Nelson Sawaka on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) for Original design idea.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+This project is [cc Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/#) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
